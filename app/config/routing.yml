@@ -1,11 +1,12 @@
+epsi_main:
+    resource: "@EpsiMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 epsi_user:
     resource: "@EpsiUserBundle/Controller/"
     type:     annotation
     prefix:   /
-
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
 
 NelmioApiDocBundle:
     resource: "@NelmioApiDocBundle/Resources/config/routing.yml"

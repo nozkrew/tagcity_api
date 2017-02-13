@@ -3,15 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/tagcity_api/app/config/security.yml</file>
             <file>file:/C:/wamp64/www/tagcity_api/app/config/routing.yml</file>
+            <file>file:/C:/wamp64/www/tagcity_api/composer.json</file>
+            <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Entity/Client.php</file>
+            <file>file:/C:/wamp64/www/tagcity_api/app/AppKernel.php</file>
+            <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Entity/User.php</file>
+            <file>file:/C:/wamp64/www/tagcity_api/app/config/security.yml</file>
+            <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Controller/UserController.php</file>
             <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Entity/AuthCode.php</file>
+            <file>file:/C:/wamp64/www/tagcity_api/src/AppBundle/Controller/DefaultController.php</file>
             <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Entity/AccessToken.php</file>
             <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Entity/RefreshToken.php</file>
             <file>file:/C:/wamp64/www/tagcity_api/app/config/config.yml</file>
-            <file>file:/C:/wamp64/www/tagcity_api/app/AppKernel.php</file>
-            <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Entity/Client.php</file>
-            <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Entity/User.php</file>
+            <file>file:/C:/wamp64/www/tagcity_api/src/Epsi/UserBundle/Controller/DefaultController.php</file>
         </group>
     </open-files>
 </project-private>
