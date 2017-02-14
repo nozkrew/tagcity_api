@@ -3,14 +3,14 @@
 namespace Epsi\MainBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-
+use JsonSerializable;
 /**
  * PointOfInterest
  *
  * @ORM\Table(name="point_of_interest")
  * @ORM\Entity(repositoryClass="Epsi\MainBundle\Repository\PointOfInterestRepository")
  */
-class PointOfInterest
+class PointOfInterest implements JsonSerializable
 {
     /**
      * @var int
@@ -45,7 +45,7 @@ class PointOfInterest
     /**
      * @var string
      *
-     * @ORM\Column(name="picture", type="blob")
+     * @ORM\Column(name="picture", type="blob", nullable=true)
      */
     private $picture;
     
@@ -200,5 +200,15 @@ class PointOfInterest
     public function getPoiTeam()
     {
         return $this->poiTeam;
+    }
+    
+    public function jsonSerialize(){
+        return array(
+            'id' => $this->id,
+            'latitude' => $this->latitude,
+            'longitude' => $this->longitude,
+            'description' => $this->description,
+            'poiTeam' => $this->poiTeam
+        );
     }
 }

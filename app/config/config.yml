@@ -80,6 +80,9 @@ fos_user:
     db_driver: orm
     firewall_name: api                                  
     user_class: Epsi\UserBundle\Entity\User
+    from_email:
+        address: noreply@example.com
+        sender_name: Epsi App
     
 fos_oauth_server:
     db_driver:           orm

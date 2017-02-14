@@ -21,7 +21,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new Epsi\UserBundle\EpsiUserBundle(),
-            new Epsi\MainBundle\EpsiMainBundle(),
+            new Epsi\MainBundle\EpsiMainBundle()
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

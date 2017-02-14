@@ -10,4 +10,12 @@ namespace Epsi\MainBundle\Repository;
  */
 class PointOfInterestRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function findAll(){
+        $qb = $this->createQueryBuilder("poi");
+        $qb->select("poi, pt, t");
+        $qb->leftJoin("poi.poiTeam", "pt");
+        $qb->leftJoin("pt.team", "t");
+        
+        return $qb->getQuery()->getResult();
+    }
 }
